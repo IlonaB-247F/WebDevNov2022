@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is tutorial2</title>
+
+    <!-- Styling kan inline gebeuren in element in body
+Is PER paragraaf-->
+    <!-- tweede manier om CSS (style) in te voegen om te definieneren, internal way
+    OF via CSS in heading= ALLE paragrafen veranderen-->
+
+    <!-- <style>
+        p{
+            color:limegreen;
+            font-size:15pt;
+        }
+    </style> -->
+
+    <!-- derde manier: to add CSS into html:t ype 'link:CSS'-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body style="background: rgb(246, 246, 196)">
+    <h1>This is the bigger font size</h1>
+    <h2>This is another text</h2>
+    <h3>Lorem Ipsum</h3>
+    <h4>Lorem Ipsum</h4>
+    <h5>Lorem Ipsum</h5>
+    <h6>Lorem Ipsum</h6>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas temporibus fugiat natus molestias deleniti, cumque minus quaerat, sed, eius facere distinctio eveniet sunt assumenda fuga quam officiis maiores. Praesentium!
+    </p>
+    <!-- hyperlinkshref (attribute), de weg naar..., in element aanduiden met href --> 
+    <a href="https://google.com">Google</a>
+    <a href="https://google.com" target="blank">open Google in new tab</a>
+    <a href="https://google.com" target="blank">open Google in new tab SEO</a>
+
+    <!-- image element = selfclosing element -->
+    <!-- https://picsum.photos -->
+    <img src="https://picsum.photos/200" alt="Random photo" width="200" height="150"/>
+
+    <!-- nested elements= een element in een element: hier: een link (foto) die een source heeft, dus de foto is clickable, je kan naar de bron gaan -->
+    <a href="https://google.com">
+        <img src="https://picsum.photos/200">
+    </a>
+
+    <a href="https://google.com">
+        <h1>Visit Google</h1>
+    </a>
+
+    <!-- attributen=src(ource), alt(ernative), width, height, style, target. element <p></p> -> attribute moet in element staan-->
+
+    <!-- br element= break the line -->
+    <p style="color:brown">Lorem ipsum dolor sit amet <br/>consectetur adipisicing elit. <br/> ut reprehenderit eaque aut. <br/>Ex optio, itaque explicabo deserunt, <br/>voluptatem sed voluptatibus. <br/>sequi accusamus atque, <br/>commodi excepturi! <br/>Officia esse voluptatum ipsum!</p>
+    <img src="https://picsum.photos/200"
+    style="width:300px; height:100px">
+
+    <p> <b>sit amet consectetur</b>
+        <strong><h1>sit amet consectetur</h1></strong>
+        <i><h1>sit amet consectetur</h1></i>
+        <em>sit amet consectetur</em><br/>
+        <small>sit amet consectetur</small><br/>
+        <del>sit amet consectetur</del><br/>
+        <ins>sit amet consectetur</ins><br/>
+        <mark>sit amet consectetur</mark><br/><br/>
+        sit amet <sub> consectetur</sub><br/><br/>
+        sit amet <sup> consectetur</sup><br/>
+        </p>
+        <blockquote 
+        cite="https://google.com">
+            <p style="color:blue">adipisicing elit ut reprehenderit eaqu</p>
+        </blockquote>
+</html>
