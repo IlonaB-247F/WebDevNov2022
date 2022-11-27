@@ -1,0 +1,45 @@
+
+#navigation{
+    background: rgb(141, 130, 130);
+    color:black;
+}
+li:hover{
+    color:white;
+    font-weight: bold;
+}
+.menu{
+    color: rgb(240, 232, 117);
+}
+
+
+
+
+table,th,td{
+    border:1px solid blue;
+    border-collapse: collapse;
+    margin:20px
+}
+
+td{
+    padding:10px;
+    
+}
+
+h1,p,span{
+    color:red;
+}
+
+li{
+    list-style-type: none;
+    display:inline;
+    margin-right:10px;
+}
+
+ul{
+    text-align:center;
+    background:#ff9800;
+    padding:5px;
+}
+
+
+
