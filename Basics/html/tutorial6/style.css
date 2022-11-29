@@ -12,7 +12,7 @@ ul{
 header{
     text-align:center;
     /*background-color: rgb(16, 70, 70);*/
-    background:url(licht.png);
+    background:url(licht.png) 5px;
     color:antiquewhite;
     padding:14px;
     /*font-family: 'Roboto+Mono';*/
@@ -55,7 +55,7 @@ article{
     background: rgb(223, 194, 194);
     border-bottom: 1px solid black;
     width: 300px;
-    height: :300px;
+    height: 200px;
     /*outline-style: groove;
     outline-width: 10px;
     outline-color: 10px red;
@@ -65,8 +65,8 @@ article{
 }
 
 .icon{
-    font-size: 20pt;
-    color:red;
+    font-size: 40pt;
+    color:rgb(207, 109, 109);
 }
 
 .icon:hover{
@@ -77,35 +77,32 @@ article{
     background-color: aliceblue;
     padding:10px 20 px;
     font-size: 14pt;
-    border:2px solid green;
+    border:2px solid rgb(207, 109, 109);
 }
 
 .btn:hover{
-    background: green;
+    background: rgb(207, 109, 109);
     color:aliceblue;
 }
 
 .box{
-    width:300px;
-    height: 300px;
-    border:1px solid red;
+    width:100px;
+    height: 100px;
+    border:1px solid rgb(207, 109, 109);
     position: absolute;
 }
 
 .box1{
-    top:0;
-    left:0;
+    right:300px;
     background-color: aqua;
 }
 
 .box2{
-    bottom:0;
-    left:0;
+    right:200px;
     background-color: gray;
 }
 
 .box3{
-    bottom:0;
-   left:0;
+    right:100px;
     background-color: rgb(221, 146, 233);
 }
