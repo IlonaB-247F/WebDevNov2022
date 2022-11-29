@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <!-- 
+         action "/post.php"
+         target "_blank/_self"
+         method ""
+      -->
+       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/F-k_Fr67bPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+   
+    <h1 style=color:rgb(47,124,200)>Registration</h1>
+     <form action="/post.php" method="POST" target="_self" >
+        <h3>Name <input type="text" maxlength="10" placeholder="First Name"/>
+            <input type="text" maxlength="10" placeholder="Last Name"/></h3>
+        <h3>Email <input type="text" maxlength="90" placeholder="sample@example.com"/></h3>
+        <h3>Phone <input type="text" maxlength="90"/></h3>
+        <h3>Emergency Contact <input type="text" maxlength="90"/></h3><br/>
+        <h3>Gender</h3>
+        <input type="radio"/>
+            <label>Male</label>
+            <input type="radio"/>
+            <label>Female</label><br/><br/>
+
+            <h3>Do you require parking?</h3>
+            <input type="radio"/>
+                <label>Yes</label>
+                <input type="radio"/>
+                <label>No</label><br/><br/>
+
+                <h3>What is your room preference?</h3>
+                <select>
+                    <option>Single Room</option>
+                    <option>Shared Room</option>
+                    <option>No Room Needed</option>
+                </select> <br/> <br/>
+         <input type="checkbox"/>
+         <label>Yes, I Want Breakfast!</label><br/> <br/>
+
+         <h3>Do you have dietary restrictions?</h3>
+                <select>
+                    <option>None</option>
+                    <option>Vegetarian</option>
+                    <option>Glutten Allergy</option>
+                    <option>Nut Allergy</option>
+                    <option>ShellfishAllergy</option>
+                    <option>Lactose Allergy</option>
+                </select><br/><br/>
+               
+                <h3>What activities will you attend?</h3>
+                <input type="checkbox"/>
+                <label>Awards Gala Dinner</label><br/>
+                <input type="checkbox"/>
+                <label>Lunch</label><br/>
+                <input type="checkbox"/>
+                <label>Town Hall</label><br/> <br/>
+ <label><h3>Company Discription</h3></label>
+         <textarea maxlength="250" minlength="10" rows="10" cols="30">
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eos obcaecati reprehenderit aperiam at explicabo, commodi saepe et quibusdam consequatur magni suscipit ratione veniam reiciendis iste totam possimus corporis neque!
+         </textarea>
+         <br/> <br/>
+         <button type="submit">Send it</button>         
+         <br/> <br/>
+ </form>
+
+ <h3>At the Hospital</h3>
+ <video controls autoplay muted loop>
+    <source src="received_2648710345453500.mp4" type="video/mp4">
+</video> 
+ <h3>AD NewsChannel</h3>
+<iframe src="https://ad.nl" width="600" height="450" loading="lazy" title="AD newschannel"><br/>
+</iframe>
+<br/> <br/>
+<audio controls muted loop autoplay>
+    <source src="7 soundmix.mp3" type="audio/mp3">
+</audio><br/> <br/>
+ </body>

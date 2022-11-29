@@ -1,0 +1,111 @@
+html,body{
+    margin:0;
+    padding:0;
+    /*reset CSS*/
+}
+
+
+ul{
+    padding:0;
+}
+
+header{
+    text-align:center;
+    /*background-color: rgb(16, 70, 70);*/
+    background:url(licht.png);
+    color:antiquewhite;
+    padding:14px;
+    /*font-family: 'Roboto+Mono';*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+nav{
+    background: rgb(207, 109, 109);
+    color:antiquewhite;
+    padding:5px;
+    /*margin: 10px;
+    border: 10px black solid;*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li{
+    display:inline;
+   /* padding:5px;*/
+    margin: 35px;
+    font-size: 14pt;
+}
+
+li:hover {
+    color:aqua;
+}
+
+main {
+    padding:20px;
+}
+
+/* al de artikels samen
+section{
+    background: whitesmoke;
+}*/ 
+
+article{
+    background: rgb(223, 194, 194);
+    border-bottom: 1px solid black;
+    width: 300px;
+    height: :300px;
+    /*outline-style: groove;
+    outline-width: 10px;
+    outline-color: 10px red;
+    border: 10px solid green;*/
+    font-family: arial;
+    padding: 25px;
+}
+
+.icon{
+    font-size: 20pt;
+    color:red;
+}
+
+.icon:hover{
+    color:black;
+}
+
+.btn{
+    background-color: aliceblue;
+    padding:10px 20 px;
+    font-size: 14pt;
+    border:2px solid green;
+}
+
+.btn:hover{
+    background: green;
+    color:aliceblue;
+}
+
+.box{
+    width:300px;
+    height: 300px;
+    border:1px solid red;
+    position: absolute;
+}
+
+.box1{
+    top:0;
+    left:0;
+    background-color: aqua;
+}
+
+.box2{
+    bottom:0;
+    left:0;
+    background-color: gray;
+}
+
+.box3{
+    bottom:0;
+   left:0;
+    background-color: rgb(221, 146, 233);
+}
