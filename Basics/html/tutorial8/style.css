@@ -1,0 +1,21 @@
+*,html,body{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+/* *=reset all*/
+
+.container{
+    display: flex;
+    justify-content: space-around; /*horizontale verandering*/
+    align-items: baseline; /*verticale verandering*/
+}
+
+.child{
+    background: rgb(171, 171, 229);
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+
+}
