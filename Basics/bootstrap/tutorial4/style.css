@@ -1,0 +1,24 @@
+.myCustomBtn:hover{
+    background-color: red !important;
+}
+
+/* hover bestaat al in BS dus via !important overschrijven we de regel en kunnen we het een andere kleur geven
+Als we overal willen aanpassen :
+input{
+    background-color: red !important;
+}*/
+
+/*
+input[type='email']{
+    background-color: red !important;
+}*/
+
+#register > .mb-3 > input[type='email']{
+    background-color: red !important;
+}
+
+#login > .mb-3:nth-child(even)>input{
+    background-color: green !important;
+}
+/* (even) of (odd) even/oneven zijn groen gekleurd
+nth: select an element*/
