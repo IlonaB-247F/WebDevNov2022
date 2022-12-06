@@ -1,0 +1,8 @@
+.bg-test{
+    background-color: var(--bs-purple);
+}
+
+:root{
+    --kleurnaam:#870393;
+    --customfont:'helvetica'
+}
